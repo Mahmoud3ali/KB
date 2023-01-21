@@ -18,3 +18,15 @@ After this is done, you'll have 3 docker images running on your machine
 1. client -> client side of the application
    - you can use that on port 8080
    - or simply click here [client](http://localhost:8080/)
+
+To Run tests
+
+#### Server
+
+1. cd to server folder
+1. run `yarn test`
+
+#### Client (You might face issues on Windows, but it should work on Mac & Linux)
+
+1. cd to client folder
+1. run `yarn test`
