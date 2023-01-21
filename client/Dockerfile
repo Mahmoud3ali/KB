@@ -6,4 +6,4 @@ COPY package.json .
 COPY yarn.lock .
 RUN yarn install
 COPY . .
-CMD yarn build && npx serve -s build
+CMD yarn build && npx serve -s build -l 8080
